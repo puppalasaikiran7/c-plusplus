@@ -64,6 +64,25 @@ int main(){
 
     cout<<*min_element(arr,arr+n);
 
+// #include <iostream>
+// #include <algorithm>  // for reverse
+
+// int main() {
+//     int arr[] = {1, 2, 3, 4, 5};
+//     int n = sizeof(arr) / sizeof(arr[0]);  // size of the array
+
+//     // Use reverse() function to reverse the array
+//     std::reverse(arr, arr + n);
+
+//     std::cout << "Reversed array: ";
+//     for(int i = 0; i < n; i++) {
+//         std::cout << arr[i] << " ";
+//     }
+
+//     return 0;
+// }
+
+
 
 
     
