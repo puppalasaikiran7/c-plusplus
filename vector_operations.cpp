@@ -23,7 +23,7 @@ int main(){
     }
 
     //empty , this will print 0 if there are values in the vector and will print 1 if there are no values in the vector 
-    //prints 1 (true) there are not elements in vector
+    //prints 1 (true) there are no elements in vector
     //prints 0 (false) there are elements in vector 
     cout<<v.empty();
 
