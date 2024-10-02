@@ -8,9 +8,8 @@ void listinsertingfromback(){
     ls.push_back(1);
     ls.emplace_back(2);
 
-    for(int i=0;i<ls.size();i++){
-        cout<<i<<" ";
-        cout<<endl;
+    for(list<int>::iterator it=ls.begin();it!=ls.end();it++){
+        cout<<*it<<" ";
     }
 }
 
